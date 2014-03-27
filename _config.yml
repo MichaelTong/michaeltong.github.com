@@ -8,14 +8,14 @@ url:              http://michaeltong.github.io
 owner:
   name:           Michael Tong
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  bio:            "I'm a college student in Computer Science. I want to be a scientist, as well as an artist."
   email:          michael.howtong@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
-  facebook:       
-  github:         
+  facebook:		  https://www.facebook.com/profile.php?id=1193666508       
+  github:         https://github.com/MichaelTong
   stackexchange:  
-  linkedin:       
+  linkedin:       cn.linkedin.com/in/michaelhowtong/
   instagram:      
   flickr:         
   tumblr:         
