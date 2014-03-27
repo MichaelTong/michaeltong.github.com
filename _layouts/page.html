@@ -1,10 +1,11 @@
-<!doctype html>
+<!doctype html >
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" xmlns:wb=“http://open.weibo.com/wb”><!--<![endif]-->
 <head>
 {% include head.html %}
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body id="page" {% if page.image.feature %}class="feature"{% endif %}>
@@ -38,6 +39,7 @@
             <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook"><span class="count"><i class="icon-facebook-sign"></i> Like</span></a></li>
             <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Share on Twitter"><span class="count"><i class="icon-twitter-sign"></i> Tweet</span></a></li>
             <li class="googleplus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><span class="count"><i class="icon-google-plus-sign"></i> +1</span></a></li>
+			<li class="weibo"><wb:share-button appkey="1g5uiY" addition="number" type="button" ralateUid="1980598807"></wb:share-button></li>
           </ul>
         </div><!-- /.social-share -->{% endif %}
       </footer>
