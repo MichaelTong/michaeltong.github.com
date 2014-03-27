@@ -9,7 +9,7 @@ image:
   creditlink: 
 comments: 
 share: 
-link: http://url-you-want-linked
+link: http://mademistakes.com/
 ---
 
 It's really excited to establish this new homepage, and totally personal.
