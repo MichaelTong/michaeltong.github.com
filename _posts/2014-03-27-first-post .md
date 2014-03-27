@@ -3,7 +3,7 @@ layout: post
 title: My personal homepage
 description: "I have just now established my homepage"
 modified: 2014-03-27
-tags: [sample post]
+tags: [My Life]
 image:
   feature: abstract-3.jpg
   credit: dargadgetz
