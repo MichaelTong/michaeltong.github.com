@@ -11,7 +11,6 @@ comments: true
 share: true
 ---
 
-### A Brand New Homepage
 
 It's really excited to establish this new homepage, and totally personal.
 
@@ -21,9 +20,11 @@ The following day I will try to migrate my posts from other sites to this, and w
 
 Once again, give thanks to **Micheal Rose** who has created this beautiful theme.  
 You can visit his github by this link: <a href="https://github.com/mmistakes" target="_blank">Click Here</a>  
-Or his page: <a href="http://mademistakes.com/" target="_blank">Click Here</a>
+Or his page: <a href="http://mademistakes.com/" target="_blank">Click Here</a>  
+Here are two previews of his pages, you can also enter his pages by clicking the picture.
 <figure class="half">
 	<a href="https://github.com/mmistakes" target="_blank"><img src="/images/postpic/20140327/1.png" alt=""></a>
 	<a href="http://mademistakes.com/" target="_blank"><img src="/images/postpic/20140327/2.png" alt=""></a>
-	<figcaption>Preview of his pages</figcaption>
 </figure>
+
+In addition, you can find many beautiful templates on his github repository.
