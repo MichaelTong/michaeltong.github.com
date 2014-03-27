@@ -11,7 +11,7 @@ comments: true
 share: true
 ---
 
-## A Brand New Homepage
+### A Brand New Homepage
 
 It's really excited to establish this new homepage, and totally personal.
 
@@ -24,6 +24,6 @@ You can visit his github by this link: [Click Here](https://github.com/mmistakes
 Or his page: [Click Here](http://mademistakes.com/)
 <figure class="half">
 	<a href="https://github.com/mmistakes"><img src="/images/postpic/20140327/1.png" alt=""></a>
-	<a href="http://mademistakes.com/"><img src="/images/postpic/20140327/1.png" alt=""></a>
+	<a href="http://mademistakes.com/"><img src="/images/postpic/20140327/2.png" alt=""></a>
 	<figcaption>Preview of his pages</figcaption>
 </figure>
