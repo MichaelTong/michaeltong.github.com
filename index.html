@@ -12,7 +12,7 @@ image:
 {% for post in paginator.posts %}
 <article class="hentry">
   <header>
-    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>{% if site.disqus_shortname and post.comments %}&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="{{ site.url }}{{ post.url }}#disqus_thread">Comment</a></span>{% endif %}</div><!-- /.entry-meta -->
+    <div class="entry-meta" style="float:left"><span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>{% if site.disqus_shortname and post.comments %}&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="{{ site.url }}{{ post.url }}#disqus_thread">Comment</a></span>{% endif %}</div><!-- /.entry-meta -->
     {% if post.link %}
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}"><i class="icon-double-angle-right"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
     {% else %}
@@ -25,7 +25,7 @@ image:
 </article><!-- /.hentry -->
 {% endfor %}
 
-<div class="pagination">{ float: left; }
+<div class="pagination" style="float:left">
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
       <a href="{{ site.url }}" class="btn">Previous</a>
@@ -59,4 +59,4 @@ image:
     Next
   {% endif %}
 </div><!-- /.pagination -->
-<iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=300&skin=8&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=1980598807&verifier=34037487&dpc=1" >{ float: right; }</iframe>
+<iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=300&skin=8&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=1980598807&verifier=34037487&dpc=1" style="float:right"></iframe>
