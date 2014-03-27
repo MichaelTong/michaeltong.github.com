@@ -20,10 +20,10 @@ I'm thinking about buying a domain name now so that you can access easily.
 The following day I will try to migrate my posts from other sites to this, and will try all means to translate them into English.
 
 Once again, give thanks to **Micheal Rose** who has created this beautiful theme.  
-You can visit his github by this link: [Click Here](https://github.com/mmistakes)  
-Or his page: [Click Here](http://mademistakes.com/)
+You can visit his github by this link: <a href="https://github.com/mmistakes" target="_blank">Click Here</a>  
+Or his page: <a href="http://mademistakes.com/" target="_blank">Click Here</a>
 <figure class="half">
-	<a href="https://github.com/mmistakes"><img src="/images/postpic/20140327/1.png" alt=""></a>
-	<a href="http://mademistakes.com/"><img src="/images/postpic/20140327/2.png" alt=""></a>
+	<a href="https://github.com/mmistakes" target="_blank"><img src="/images/postpic/20140327/1.png" alt=""></a>
+	<a href="http://mademistakes.com/" target="_blank"><img src="/images/postpic/20140327/2.png" alt=""></a>
 	<figcaption>Preview of his pages</figcaption>
 </figure>
