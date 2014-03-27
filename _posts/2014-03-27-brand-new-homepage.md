@@ -7,8 +7,8 @@ image:
   feature: 
   credit: 
   creditlink: 
-comments: 
-share: 
+comments: true
+share: true
 link: http://mademistakes.com/
 ---
 
