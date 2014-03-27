@@ -1,4 +1,4 @@
-title:            Michael Tong
+title:            Welcome to my homepage, I am trying to make it, as well as life, better!
 description:      It's my homepage.
 disqus_shortname: 
 #Your site's domain goes here. Leave localhost server or blank when working locally.
@@ -11,11 +11,11 @@ owner:
   bio:            "I'm a college student in Computer Science. I want to be a scientist, as well as an artist."
   email:          michael.howtong@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:		  https://www.facebook.com/profile.php?id=1193666508       
-  github:         https://github.com/MichaelTong
+  twitter:        keyboardPoet
+  facebook:		  1193666508       
+  github:         MichaelTong
   stackexchange:  
-  linkedin:       cn.linkedin.com/in/michaelhowtong/
+  linkedin:       michaelhowtong/
   instagram:      
   flickr:         
   tumblr:         
