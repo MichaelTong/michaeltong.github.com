@@ -68,5 +68,5 @@ Travelling makes life **BETTER**!!!
 
 
 It's my photo shot at Pisa on 2014/01/12.
-![I'm in Paris]({{ site.url }}/images/aboutme1.jpg)
+![I'm in Pisa]({{ site.url }}/images/aboutme1.jpg)
 
