@@ -11,8 +11,10 @@ comments: true
 share: true
 ---
 
+你怎么说 红尘客栈 千里之外
+
 Jay Chou(周杰伦) is my favorite male singer, and he has created many records around Asia.  
-Don't know how Jay is? Please refer to his page in <a href="http://en.wikipedia.org/wiki/Jay_Chou" target="_blank">English</a> and <a href="http://zh.wikipedia.org/wiki/%E5%91%A8%E6%9D%B0%E5%80%AB" target="_blank">Chinese</a> on wikipedia.
+Don't know who Jay is? Please refer to his page in <a href="http://en.wikipedia.org/wiki/Jay_Chou" target="_blank">English</a> and <a href="http://zh.wikipedia.org/wiki/%E5%91%A8%E6%9D%B0%E5%80%AB" target="_blank">Chinese</a> on wikipedia.
 
 This video was shot on Jay's concert in 2013 in Taipei. He used 3D reconstruction, holographic projection and maybe some techs doing with voice and image( I remember MRSA is doing research on this) to make <a href="http://en.wikipedia.org/wiki/Teresa_Teng" target="_blank">Teresa Teng</a>(<a href="http://zh.wikipedia.org/wiki/%E9%84%A7%E9%BA%97%E5%90%9B" target="_blank">邓丽君</a>) alive and sing songs with Jay. 
 
