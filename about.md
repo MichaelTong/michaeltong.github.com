@@ -25,7 +25,7 @@ My real name in fact should be "Hao Tong", and I almost forgot I have picked up 
 
 #### Undergraduate  
 1. Intern at **Institute of Advanced Computing Technology**  
-   <cite>I am now doing my graduate project here trying to connect <a href="code.edx.org" target="_blank">edX</a> with a virtual machine system to make MOOC more common in China. The topic is "<u>Design and Implementation of Online Course and Practice System Based on Virtualization</u>"</cite>.  
+   <cite>I am now doing my graduate project here trying to connect <a href="http://code.edx.org" target="_blank">edX</a> with a virtual machine system to make MOOC more common in China. The topic is "<u>Design and Implementation of Online Course and Practice System Based on Virtualization</u>"</cite>.  
    * Developed a Paper Download Tool with data mining technology  
    * Research on the Rapid Deployment of Large-Scale Virtualization Platform Technology  
    * Built a testbed with Hadoop  
@@ -37,7 +37,7 @@ My real name in fact should be "Hao Tong", and I almost forgot I have picked up 
    * Personalized Analysis of Emotion in Social Networking Environment  
    * Personalized Analysis of Emotion Based on OCC Model  
    * Evaluation of the Credibility of Weibos about Government  
-      <a href="www.anti-rumor.com" target="_blank">See HERE!!!</a>  
+      <a href="http://www.anti-rumor.com" target="_blank">See HERE!!!</a>  
 4. Team leader in mathematical modeling team 2012 - 2013
    * 2013 Mathematical Contest In Modeling (the **Meritorious Winner**)  
    * 2012 China Undergraduate Mathematical Contest in Modeling  
