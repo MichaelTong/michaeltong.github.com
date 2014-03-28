@@ -8,7 +8,7 @@ url:              http://michaeltong.github.io
 owner:
   name:           Michael Tong
   avatar:         avatar.jpg
-  bio:            "Geek wanna be artist."
+  bio:            "I want to be a geek, as well as an artist."
   email:          tonghao1992@email.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
@@ -36,6 +36,7 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Publications
+  - title: My Projects
   - title: Theme Author
     url: http://mademistakes.com
     external: true
