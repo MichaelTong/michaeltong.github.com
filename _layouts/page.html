@@ -41,21 +41,16 @@
             <li class="googleplus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus" target="_blank"><span class="count"><i class="icon-google-plus-sign"></i> +1</span></a></li>
           </ul>
           <ul class="socialcount socialcount-small inline-list" data-url="{{ site.url }}{{ page.url }}" data-share-text="{{ page.title }}">
-			<li class="weibo"><wb:share-button appkey="1g5uiY" addition="number" type="button" ralateUid="1980598807"></wb:share-button></li>
-			<li class="renren"><script type="text/javascript" src="http://widget.renren.com/js/rrshare.js"></script>
-<a name="xn_share" onclick="shareClick()" type="button_medium" href="javascript:;"></a>
-<script type="text/javascript">
-	function shareClick() {
-		var rrShareParam = {
-			resourceUrl : '',	//分享的资源Url
-			srcUrl : '',	//分享的资源来源Url,默认为header中的Referer,如果分享失败可以调整此值为resourceUrl试试
-			pic : '',		//分享的主题图片Url
-			title : '',		//分享的标题
-			description : ''	//分享的详细描述
-		};
-		rrShareOnclick(rrShareParam);
-	}
-</script></li>
+	    <div class="bshare-custom">
+	      <a title="Share on Wechat" class="bshare-weixin"></a>
+	      <a title="Share on Weibo" class="bshare-sinaminiblog"></a>
+              <a title="Share on Douban" class="bshare-douban"></a>
+              <a title="Share on RenRen" class="bshare-renren"></a>
+              <a title="Share on Qzone" class="bshare-qzone"></a>
+              <span class="BSHARE_COUNT bshare-share-count">0</span>
+            </div>
+            <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=037d3021-4c0e-4bd8-8389-c267538e5bbf&amp;pophcol=3&amp;lang=zh"></script>
+            <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
           </ul>
         </div><!-- /.social-share -->{% endif %}
       </footer>
