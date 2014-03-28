@@ -23,5 +23,9 @@ This video was shot on Jay's concert in 2013 in Taipei. He used 3D reconstructio
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/TixHYua3XCI" frameborder="0"> </iframe>
 
+#### For Chinese Mainland:
+
+Please Click **<a href="http://v.youku.com/v_show/id_XNjA3NDQ1NzMy.html" target="_blank">HERE</a>**!
+
 By the way, Youtube has changed its interface again, feel kinda hard to get used to it... of course, for absence of youtube for so long a time...  
 Sadly, I can't add the video from Youku...:(
