@@ -11,10 +11,10 @@ share: true
 ---
 Hello Everyone! Welcome to my homepage!
 
-
-![It's me]({{ site.url }}/images/aboutme2.jpg)
-{: .pull-right}
-![Michael Jordan]({{ site.url }}/images/jordan1.jpg)
+<figure class="half">
+	<img src="/images/aboutme2.jpg" alt="">
+	<img src="/images/jordan1.jpg" alt="">
+</figure>
 {: .pull-right}
 
 I'm Michael Tong, currently a senior college student in Beihang Univeristy, China. I'm going to move to the U.S. to pursue Ph.D degree, even though I haven't decided which university to attend.
