@@ -44,7 +44,9 @@ My real name in fact should be "Hao Tong", and I almost forgot I have picked up 
 
 ### Life
 
-Coding, Basketball, Sketching, Guitar, Music, Travel,... make up my **LIFE**.  
+I think my life is quite simple, coding, basketball, sketch, guitar, music and travel make up my current life. I don't want my life to be complicated, neither do I like anyone who will make my life complicated.
+
+Tech's good, so is **LIFE**.
 
 ### Travel
 
@@ -57,14 +59,13 @@ For recent years, I have travelled a lot.
 * In Spring 2013, I took a trip to Nanjing and Suzhou.  
 * Early Spring 2013, I travelled around Taiwan province.  
   Nice people, nice weather and really nice scenery.  
-* In Summer 2012, I went to Hong Kong as a visit scholar for a week, by which chance I was able to visit most of the wonders in Hong Kong.  
+* In Summer 2012, I went to Hong Kong as a visit scholar for a week, by whose chance I was able to visit most of the wonders in Hong Kong.  
 * In Summer 2011, I went to Italy as a team member of the program <cite>Chinese Youth Going to Italy to Exchange Culture</cite>.  
-  It was my first time abroad, and I have travel to Roman, Florence, Pisa, Milan.  
+  It was my first time abroad, and I have travelled to Roman, Florence, Pisa, Milan.  
   Really like the weather during summer!!! Much better than winter!!!  
 * ...
 
 I would like to travel all around the world.  
-Travelling makes life **BETTER**!!!
 
 
 It's my photo shot at Pisa on 2014/01/12.
