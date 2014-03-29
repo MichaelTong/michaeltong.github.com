@@ -23,4 +23,4 @@ to get access to my page.
 
 For Chinese user, we can use **<a href="https://www.dnspod.cn/" target="_blank">DNSpod</a>** to get free DNS service and we can use domain name of the page (for example, <cite>michaeltong.github.io</cite>) instead of IP of github to redirect our top-level domain name.
 
-Besides, pages for my projects will be finished and put on table soon!
+> Besides, pages for my projects will be finished and put on table soon!
