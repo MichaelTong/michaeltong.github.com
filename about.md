@@ -11,19 +11,16 @@ share: true
 ---
 Hello Everyone! Welcome to my homepage!
 
-
-![It's me]({{ site.url }}/images/aboutme2.jpg)
-{: .pull-right}
-![Michael Jordan]({{ site.url }}/images/jordan1.jpg)
+![It's me]({{ site.url }}/images/aboutme4.jpg)
 {: .pull-right}
 
-I'm Michael Tong, currently a senior college student in Beihang Univeristy, China. I will become a Ph.D. student at the **University of Chicago** in Computer Science. My advisor will be **<a href="http://people.cs.uchicago.edu/~haryadi/" target="_blank">Haryadi Gunawi</a>**.
+I'm Michael Tong, currently a senior college student in Beihang Univeristy, China. I will become a Ph.D. student at the **<a href="http://www.cs.uchicago.edu/" target="_blank">University of Chicago</a>** in Computer Science. My advisor will be **<a href="http://people.cs.uchicago.edu/~haryadi/" target="_blank">Haryadi Gunawi</a>**.
 
 My real name in fact should be "Hao Tong", and I almost forgot I have picked up an English name with "Michael" years ago until one day in Denmark my friends found my name on Facebook was Michael. Michael is a very common name in English, but I chose it for a talented person named **Michael Jordan**.
 
 ### Academia
 
-My research interests are mainly in **distributed systems**, **cloud computing, security and reliability**. Of course, I'm really interested in all fields about computer science!
+My research interests are mainly in **Distributed Systems**, **Cloud Computing, Security and Reliability**. Of course, I'm really interested in all fields about computer science!
 
 #### Undergraduate  
 1. Intern at **Institute of Advanced Computing Technology**  
