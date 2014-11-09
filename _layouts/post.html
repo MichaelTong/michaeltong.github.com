@@ -32,6 +32,13 @@
           <h1 class="entry-title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
         {% endif %}
         <h2>{{ page.date | date: "%B %d, %Y" }}</h2>
+	{% if site.reading_time %}
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          {% assign readtime = content | number_of_words | divided_by:site.words_per_minute %}
+          Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
+        </p><!-- /.entry-reading-time -->
+        {% endif %}
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
@@ -41,49 +48,12 @@
         <span><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a> was published on <span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></span>
         {% if page.modified %}(revised: <span class="entry-date date modified"><time datetime="{{ page.modified }}">{{ page.modified | date: "%m/%d/%Y" }}</time></span>){% endif %}
         <span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
-        {% if page.share %}<div class="social-share">
-          <ul class="socialcount socialcount-small inline-list">
-            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" target="_blank"><span class="count"><i class="icon-facebook-sign"></i> Like</span></a></li>
-            <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Share on Twitter" target="_blank"><span class="count"><i class="icon-twitter-sign"></i> Tweet</span></a></li>
-            <li class="googleplus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus" target="_blank"><span class="count"><i class="icon-google-plus-sign"></i> +1</span></a></li>
-          </ul>
-	  <ul class="socialcount socialcount-small inline-list" data-url="{{ site.url }}{{ page.url }}" data-share-text="{{ page.title }}">
-	    <div class="bshare-custom">
-	      <a title="Share on Wechat" class="bshare-weixin"></a>
-	      <a title="Share on Weibo" class="bshare-sinaminiblog"></a>
-              <a title="Share on Douban" class="bshare-douban"></a>
-              <a title="Share on RenRen" class="bshare-renren"></a>
-              <a title="Share on Qzone" class="bshare-qzone"></a>
-              <span class="BSHARE_COUNT bshare-share-count">0</span>
-            </div>
-            <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=037d3021-4c0e-4bd8-8389-c267538e5bbf&amp;pophcol=3&amp;lang=zh"></script>
-            <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
-	  </ul>
-        </div><!-- /.social-share -->{% endif %}
+        {% if page.share != false %}{% include social-share.html %}{% endif %}
       </footer>
     </div><!-- /.entry-content -->
     {% if site.disqus_shortname and page.comments %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
     {% if site.related_posts.size %}
-    <div class="read-more">
-      {% for post in site.related_posts limit:1 %}
-        <div class="read-more-header">
-          <a href="{{ site.url }}{{ page.previous.url }}" class="read-more-btn">Read More</a>
-        </div><!-- /.read-more-header -->
-        <div class="read-more-content">
-          <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-          <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 140 }}&hellip;{% endif %} <a href="{{ site.url }}{{ post.url }}">Continue reading</a></p>
-        </div><!-- /.read-more-content -->
-      {% endfor %}
-      <div class="read-more-list">
-        {% for post in site.related_posts limit:2 offset:1 %}
-          <div class="list-item">
-            <h4><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
-            <span>Published on {{ post.date | date: "%B %d, %Y" }}</span>
-          </div><!-- /.list-item -->
-        {% endfor %}
-      </div><!-- /.read-more-list -->
-      {% endif %}
-    </div><!-- /.read-more -->
+    {% if site.related_posts.size %}{% include read-more.html %}{% endif %}
   </article>
 </div><!-- /#main -->
 
