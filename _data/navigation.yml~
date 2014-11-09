@@ -1,0 +1,12 @@
+# Menu navigation links
+
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Publications
+    url: /publications
+  - title: My Projects
+    url: /my-projects
+  - title: Theme Author
+    url: http://mademistakes.com
