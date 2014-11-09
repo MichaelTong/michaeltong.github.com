@@ -2,11 +2,7 @@
 layout: post-index
 title: Tag Archive
 description: "An archive of posts sorted by tag."
-tags: [Jekyll, theme, modern, minimal, responsive]
-image:
-  feature: abstract-7.jpg
-  credit: 
-  creditlink: 
+comments: false
 ---
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
