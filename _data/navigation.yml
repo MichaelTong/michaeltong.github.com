@@ -1,7 +1,12 @@
 # Menu navigation links
 
-- title: Theme Setup
-  url: /theme-setup/
 
-- title: External Link
-  url: http://mademistakes.com
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Publications
+    url: /publications
+  - title: My Projects
+    url: /my-projects
+  - title: Theme Author
+    url: http://mademistakes.com
