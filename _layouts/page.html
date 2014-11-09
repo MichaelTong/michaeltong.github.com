@@ -44,7 +44,7 @@
         {% if page.share != false %}{% include social-share.html %}{% endif %}
       </footer>
     </div><!-- /.entry-content -->
-    {% if site.disqus_shortname and page.comments %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+    {% if site.disqus_shortname and page.comments !=false %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
   </article>
 </div><!-- /#main -->
 
