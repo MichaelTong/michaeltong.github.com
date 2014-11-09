@@ -3,6 +3,7 @@ layout: page
 permalink: /about/
 title: About Michael Tong
 tags: [Jekyll, theme, modern, minimal, responsive]
+comments: false
 image:
   feature: aboutme3.jpg
   credit: 
