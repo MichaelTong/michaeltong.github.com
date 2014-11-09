@@ -5,8 +5,8 @@
 # For external links add external: true
 links:
   - title: Publications
-    url: /publications
+    url: /publications/
   - title: My Projects
-    url: /my-projects
+    url: /my-projects/
   - title: Theme Author
     url: http://mademistakes.com
